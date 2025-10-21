@@ -12,6 +12,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;
+    margin: 10px;
 }
 
 nav{  
@@ -32,9 +33,7 @@ main>div>img{
     text-align: ;
 }
 
-main>div{
-    background-color: darkgray;
-}
+
 main>div>p{
     text-align: center;
 }
@@ -48,10 +47,20 @@ h1{
     justify-content: space-around;
 }
 
-main{
+.main_1{
     padding: 10px;
+    background-color: chocolate;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
 }
 
 footer{
     background-color: chartreuse;
+}
+
+main{
+    padding: 10px;
+    background-color: chocolate;
+
 }
